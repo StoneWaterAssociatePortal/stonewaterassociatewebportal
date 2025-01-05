@@ -14,7 +14,7 @@ const HomePage = () => {
         textAlign: 'center',
         fontFamily: 'Arial, sans-serif',
         backgroundColor: '#f9f9f9',
-        padding: '20px',
+        padding: '21px',
       }}
     >
       <div
@@ -31,7 +31,7 @@ const HomePage = () => {
         <h1
           style={{
             marginLeft: '10px',
-            fontSize: '31px',
+            fontSize: '32px',
             color: '#333',
             fontWeight: '500',
             wordBreak: 'break-word',
