@@ -1,0 +1,70 @@
+@keyframes circle-animation {
+    0% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+  }
+  
+  .heading {
+    font-size: 31px;
+    color: #333;
+    font-weight: 500;
+    word-break: break-word;
+  }
+  
+  .subheading {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: 900;
+    word-break: break-word;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+  
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 28px;
+    }
+    .subheading {
+      font-size: 20px;
+    }
+    .paragraph {
+      font-size: 16px;
+    }
+    .circle {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading {
+      font-size: 24px;
+    }
+    .subheading {
+      font-size: 18px;
+    }
+    .paragraph {
+      font-size: 14px;
+    }
+    .circle {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
