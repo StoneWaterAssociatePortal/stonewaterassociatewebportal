@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500" width="75" height="75">
+  <defs>
+    <style>
+      .cls-1,.cls-2{fill:#228522;}
+      .cls-2{font-size:307.68px;font-family:Bebas-Regular, Bebas;}
+      .cls-3{letter-spacing:0em;}
+      .cls-4{letter-spacing:0em;}
+      .cls-5{letter-spacing:-0.02em;}
+      .cls-6{letter-spacing:-0.04em;}
+      .cls-7{font-family:BebasNeue-Regular, Bebas Neue;}
+      .cls-8{letter-spacing:-0.04em;}
+    </style>
+  </defs>
+  <title>Stone_Water</title>
+  <polygon class="cls-1" points="739.24 6 739.24 348.79 674.7 348.79 674.7 94.42 559.95 130.32 495.41 150.5 470.31 158.36 470.31 416.92 739.24 416.92 739.24 879.48 738.63 879.48 726.12 868.83 674.7 824.94 559.95 727.08 495.41 672.04 495.41 556.76 559.95 556.76 559.95 641.03 674.7 738.88 674.7 481.46 405.77 481.46 405.77 110.27 470.31 90.08 495.41 82.23 559.95 62.04 674.7 26.19 739.24 6"/>
+  <polygon class="cls-1" points="1094.22 111.85 1094.22 598.11 1029.68 653.15 961.55 711.27 897.01 766.31 825.29 827.48 776.82 868.83 764.34 879.48 760.75 879.48 760.75 7.58 825.29 27.77 825.29 741.43 897.01 680.25 897.01 50.17 961.55 70.36 961.55 625.22 1029.68 567.09 1029.68 91.66 1094.22 111.85"/>
+  <text class="cls-2" transform="translate(63.57 1155.37)">
+    <tspan class="cls-3">S</tspan><tspan class="cls-4" x="124.61" y="0">tone </tspan>
+    <tspan class="cls-5" x="704.88" y="0">w</tspan><tspan class="cls-6" x="883.34" y="0">a</tspan>
+    <tspan x="1000.26" y="0">ter</tspan>
+    <tspan class="cls-7">
+      <tspan x="194.61" y="283.55">Associ</tspan>
+      <tspan class="cls-8" x="838.57" y="283.55">a</tspan>
+      <tspan x="956.72" y="283.55">te</tspan>
+    </tspan>
+  </text>
+</svg>

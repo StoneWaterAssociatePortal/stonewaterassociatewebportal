@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 480 480">
+  <g transform="scale(0.1667)">
+    <path fill="#dee4de" d="M320 40H64v432h352V136h-96zm0 0" opacity="0"/>
+    <path fill="#e2e8e2" d="M136 472h280V248c0 114.969-142.922 224-280 224zm0 0" opacity="0"/>
+    <path fill="#cfedcf" d="M24 8h176c8.836 0 16 7.164 16 16v224c0 8.836-7.164 16-16 16H24c-8.836 0-16-7.164-16-16V24c0-8.836 7.164-16 16-16zm0 0" opacity="0.058823529411764705"/>
+    <path fill="#228522" d="M320 136h96l-96-96zm0 0" opacity="1"/>
+    <path fill="#ecf1ec" d="M32 32h160v40H32zm0 0" opacity="0"/>
+    <g fill="#006df0">
+      <path d="M48 96h16a8 8 0 0 1 8 8v16a8 8 0 0 1-8 8H48a8 8 0 0 1-8-8v-16a8 8 0 0 1 8-8zM104 96h16a8 8 0 0 1 8 8v16a8 8 0 0 1-8 8h-16a8 8 0 0 1-8-8v-16a8 8 0 0 1 8-8zM160 96h16a8 8 0 0 1 8 8v16a8 8 0 0 1-8 8h-16a8 8 0 0 1-8-8v-16a8 8 0 0 1 8-8z" fill="#228522" opacity="1"/>
+    </g>
+  </g>
+</svg>
