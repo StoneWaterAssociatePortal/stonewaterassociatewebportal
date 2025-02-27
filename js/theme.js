@@ -446,40 +446,41 @@
     });
 
     
-    $(window).on ('load', function (){ // makes sure the whole site is loaded
+    $(document).ready(function () {
+      // makes sure the whole site is loaded
 
-        // -------------------- Site Preloader
-        $('#loader').fadeOut(); // will first fade out the loading animation
-        $('#loader-wrapper').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-        $('body').delay(350).css({'overflow':'visible'});
+      // -------------------- Site Preloader
+      $("#loader").fadeOut(); // will first fade out the loading animation
+      $("#loader-wrapper").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+      $("body").delay(350).css({ overflow: "visible" });
 
-
-        // ------------------------ Chart Js
-        if($("#chartContainer").length) {
-          var chart = new CanvasJS.Chart("chartContainer", {
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            animationEnabled: true,
-            zoomEnabled: true,
-            data: [{
+      // ------------------------ Chart Js
+      if ($("#chartContainer").length) {
+        var chart = new CanvasJS.Chart("chartContainer", {
+          theme: "light2", // "light1", "light2", "dark1", "dark2"
+          animationEnabled: true,
+          zoomEnabled: true,
+          data: [
+            {
               type: "area",
-              dataPoints: []
-            }]
-          });
+              dataPoints: [],
+            },
+          ],
+        });
 
-          addDataPoints(1000);  
-          chart.render();
+        addDataPoints(1000);
+        chart.render();
 
-          function addDataPoints(noOfDps) {
-            var xVal = chart.options.data[0].dataPoints.length + 1, yVal = 100;
-            for(var i = 0; i < noOfDps; i++) {
-              yVal = yVal +  Math.round(5 + Math.random() *(-5-5));
-              chart.options.data[0].dataPoints.push({x: xVal,y: yVal}); 
-              xVal++;
-            }
+        function addDataPoints(noOfDps) {
+          var xVal = chart.options.data[0].dataPoints.length + 1,
+            yVal = 100;
+          for (var i = 0; i < noOfDps; i++) {
+            yVal = yVal + Math.round(5 + Math.random() * (-5 - 5));
+            chart.options.data[0].dataPoints.push({ x: xVal, y: yVal });
+            xVal++;
           }
         }
-
-
-    })
+      }
+    });
     
 })(jQuery)
